@@ -1,117 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<!doctype html>
-<html lang="en" class="h-100">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.104.2">
-    <title>Cover Template · Bootstrap v5.2</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="author" content="Kodinger">
+	<meta name="keyword" content="Kodinger, template, html5, css3, bootstrap4">
+	<meta name="description" content="HTML5 and CSS3 Template Based on Bootstrap 4">
+	<title>Portfolio chawartK.</title>
+	<link rel="stylesheet" href="ionicons/css/ionicons.min.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="sweetalert/dist/sweetalert.css">
+	<link rel="stylesheet" href="css/stisla.css">
+</head>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/cover/">
+<body>
+	<nav class="navbar navbar-expand-lg main-navbar">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">
+				<img src="img/logo-light.png" alt="Logo">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon">
+					<i class="ion-navicon"></i>
+				</span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<div class="mr-auto"></div>
+				<ul class="navbar-nav">
+					<li class="nav-item active">
+						<a class="nav-link smooth-link" href="#hero">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link smooth-link" href="#features">ChaiwatK Features</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link smooth-link" href="#blog">Website</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link smooth-link" href="#project">Application</a>
+					</li>
+				</ul>
+				<form class="form-inline">
+					<a href="#contact" class="btn smooth-link align-middle btn-primary">Need Help?</a>
+				</form>
+			</div>
+		</div>
+	</nav>
+	<section class="hero bg-overlay" id="hero" data-bg="img/hero1.png">
+		<div class="text py-5">
+			<p class="lead">
+				Welcome to the world of</p>
+			<h1>I'm <span class="bold">Chaiwart</span> ,I'm  Web Developer.</h1>
+			<div class="cta">
+				<a href="#features" class="btn btn-primary smooth-link">Get Started</a>
+			</div>
+		</div>
+	</section>
 
-    
+	<section class="padding" id="features">
+		<div class="container">
+			<h2 class="section-title">Programming Skills</h2>
+			<p class="section-lead text-muted">program developer</p>
+				<br><br><br>
+			<div class="row mb-5">
+				<div class="col-12 col-md-4 col-sm-12">
+					<div class="list-item">
+						<div class="icon">
+							<i class="ion-code"></i>
+						</div>
+						<div class="desc">
+							<h2>Angular&nbsp;TypeScript</h2>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore.
+							</p>
+							<a href="#" class="more">Learn More</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-4 col-sm-12">
+					<div class="list-item">
+						<div class="icon">
+							<i class="ion-code"></i>
+						</div>
+						<div class="desc">
+							<h2>Bootstrap</h2>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore.
+							</p>
+							<a href="#" class="more">Learn More</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-4 col-sm-12">
+					<div class="list-item no-spacing">
+						<div class="icon">
+							<i class="ion-code"></i>
+						</div>
+						<div class="desc">
+							<h2>IONIC</h2>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore.
+							</p>
+							<a href="#" class="more">Learn More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-12 col-md-4 col-sm-12">
+					<div class="list-item">
+						<div class="icon">
+							<i class="ion-code"></i>
+						</div>
+						<div class="desc">
+							<h2>HTML5</h2>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore.
+							</p>
+							<a href="#" class="more">Learn More</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-4 col-sm-12">
+					<div class="list-item">
+						<div class="icon">
+							<i class="ion-code"></i>
+						</div>
+						<div class="desc">
+							<h2>CSS3</h2>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore.
+							</p>
+							<a href="#" class="more">Learn More</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-4 col-sm-12">
+					<div class="list-item no-spacing">
+						<div class="icon">
+							<i class="ion-code"></i>
+						</div>
+						<div class="desc">
+							<h2>SCSS</h2>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore.
+							</p>
+							<a href="#" class="more">Learn More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-    
+	<section class="padding bg-grey" id="blog">
+		<div class="container">
+			<h2 class="section-title">Projects | Website</h2>
+			<p class="section-lead text-muted">We wrote some articles about whatever was on our heads and most people
+				liked it.</p>
+			<div class="section-body">
+				<div class="row col-spacing">
+					<div class="col-12 col-md-6 col-lg-4">
+						<article class="card">
+							<img class="card-img-top" src="img/news/img01.jpg" alt="Article Image">
+							<div class="card-body">
+								<div class="card-subtitle mb-2 text-muted">by <a href="#">John Doe</a> on August 10,
+									2017</div>
+								<h4 class="card-title"><a href="#" data-toggle="read" data-id="1">Duis aute irure dolor
+										in reprehenderit in voluptate</a></h4>
+								<p class="card-text">Mauris eu eros in metus elementum porta eget sed ligula. Praesent
+									consequat, ipsum molestie pellentesque venenatis.</p>
+								<div class="text-right">
+									<a href="#" class="card-more" data-toggle="read" data-id="1">Read More <i
+											class="ion-ios-arrow-right"></i></a>
+								</div>
+							</div>
+						</article>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<article class="card">
+							<img class="card-img-top" src="img/news/img04.jpg" alt="Article Image">
+							<div class="card-body">
+								<div class="card-subtitle mb-2 text-muted">by <a href="#">John Doe</a> on August 10,
+									2017</div>
+								<h4 class="card-title"><a href="#" data-toggle="read" data-id="1">Velit esse cillum
+										dolore eu blos siur dropsida wedor</a></h4>
+								<p class="card-text">Mauris eu eros in metus elementum porta eget sed ligula. Praesent
+									consequat, ipsum molestie pellentesque venenatis.</p>
+								<div class="text-right">
+									<a href="#" class="card-more" data-toggle="read" data-id="1">Read More <i
+											class="ion-ios-arrow-right"></i></a>
+								</div>
+							</div>
+						</article>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<article class="card">
+							<img class="card-img-top" src="img/news/img02.jpg" alt="Article Image">
+							<div class="card-body">
+								<div class="card-subtitle mb-2 text-muted">by <a href="#">John Doe</a> on August 10,
+									2017</div>
+								<h4 class="card-title"><a href="#" data-toggle="read" data-id="1">Excepteur sint as
+										occaecat dros cupidatat non proident los</a></h4>
+								<p class="card-text">Mauris eu eros in metus elementum porta eget sed ligula. Praesent
+									consequat, ipsum molestie pellentesque venenatis.</p>
+								<div class="text-right">
+									<a href="#" class="card-more" data-toggle="read" data-id="1">Read More <i
+											class="ion-ios-arrow-right"></i></a>
+								</div>
+							</div>
+						</article>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<article class="card">
+							<img class="card-img-top" src="img/news/img05.jpg" alt="Article Image">
+							<div class="card-body">
+								<div class="card-subtitle mb-2 text-muted">by <a href="#">John Doe</a> on August 10,
+									2017</div>
+								<h4 class="card-title"><a href="#" data-toggle="read" data-id="1">Sunt in ado culpa qui
+										officia deserunt mollit anim id</a></h4>
+								<p class="card-text">Mauris eu eros in metus elementum porta eget sed ligula. Praesent
+									consequat, ipsum molestie pellentesque venenatis.</p>
+								<div class="text-right">
+									<a href="#" class="card-more" data-toggle="read" data-id="1">Read More <i
+											class="ion-ios-arrow-right"></i></a>
+								</div>
+							</div>
+						</article>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<article class="card">
+							<img class="card-img-top" src="img/news/img03.jpg" alt="Article Image">
+							<div class="card-body">
+								<div class="card-subtitle mb-2 text-muted">by <a href="#">John Doe</a> on August 10,
+									2017</div>
+								<h4 class="card-title"><a href="#" data-toggle="read" data-id="1">Incididunt ut labore
+										et labore dolore magna aliqua lorem</a></h4>
+								<p class="card-text">Mauris eu eros in metus elementum porta eget sed ligula. Praesent
+									consequat, ipsum molestie pellentesque venenatis.</p>
+								<div class="text-right">
+									<a href="#" class="card-more" data-toggle="read" data-id="1">Read More <i
+											class="ion-ios-arrow-right"></i></a>
+								</div>
+							</div>
+						</article>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<article class="card">
+							<img class="card-img-top" src="img/news/img06.jpg" alt="Article Image">
+							<div class="card-body">
+								<div class="card-subtitle mb-2 text-muted">by <a href="#">John Doe</a> on August 10,
+									2017</div>
+								<h4 class="card-title"><a href="#" data-toggle="read" data-id="1">Ut enim ad minim
+										veniam quis nostrud enim ad kruv</a></h4>
+								<p class="card-text">Mauris eu eros in metus elementum porta eget sed ligula. Praesent
+									consequat, ipsum molestie pellentesque venenatis.</p>
+								<div class="text-right">
+									<a href="#" class="card-more" data-toggle="read" data-id="1">Read More <i
+											class="ion-ios-arrow-right"></i></a>
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
 
-<link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+			<div class="row align-items-center mt-5">
+				<div class="col-12 col-md-6">
+					<h2>Don't miss our article</h2>
+					<p class="text-muted">Just enter your email then we will send an email about the latest articles</p>
+				</div>
+				<div class="col-12 col-md-6">
+					<form class="subscribe" action="#">
+						<input type="email" name="email" class="form-control" placeholder="Your email">
+						<button class="btn btn-primary">Subscribe</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <!-- Favicons -->
-<link rel="apple-touch-icon" href="/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-<link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json">
-<link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
-<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico">
-<meta name="theme-color" content="#712cf9">
+	<section class="bg-overlay padding" id="project" data-bg="img/projects.jpeg">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-12 col-md-6">
+					<figure class="projects-picture">
+						<img src="img/youzhang.png" alt="Youzhang">
+					</figure>
+				</div>
+				<div class="col-12 col-md-6">
+					<div class="projects-details">
+						<div class="projects-badge">
+							Featured
+						</div>
+						<h2 class="projects-title">Youzhang - Ionic 3 Catalogue Template</h2>
+						<p class="projects-description">
+							Youzhang is an iconic template catalog 3. This ionic template uses version 3 and uses the
+							latest feature of ionic v3 that is Lazy Loading. With Ionic version 3 and Lazy Loading you
+							don’t have to define all the components in the app.module.ts file and your hybrid app will
+							get more native and it will make the app performance better.
+						</p>
+						<div class="projects-cta">
+							<a href="https://codecanyon.net/item/youzhang-ionic-3-catalogue-template/20466954?ref=frameborder"
+								class="btn btn-primary" target="_blank">
+								Buy Now
+							</a>
+							<a href="https://codecanyon.net/user/frameborder?ref=frameborder" class="btn btn-link"
+								target="_blank">
+								More Products
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
+	<section class="padding bg-grey" id="contact">
+		<div class="container">
+			<h2 class="section-title">Contact Us</h2>
+			<p class="section-lead text-muted">Send us your inquiry, we will help you and reply as soon
+				as possible</p>
+			<div class="row align-items-center  py-5">
+				<div class="col-lg-7  text-lg-start">
+					<h5 class="card-title">Phone</h5>
+					<p class="section-lead text-muted">092-321-1771</p>
+					<h5 class="card-title">Facebook</h5>
+					<p class="section-lead text-muted">www.facebook.com/chaiwart.katasila/</p>
+					<h5 class="card-title">instagrams</h5>
+					<p class="section-lead text-muted">www.instagram.com/mac_chaiwart/</p>
+					<h5 class="card-title">Address</h5>
+					<p class="section-lead text-muted">
+						52/25หมู่บ้านธัญดา ซ.เพชรงาม ถ.พุทธรักษา ต.แพรกษาใหม่
+						<br> อ.เมือง จ.สมุทรปราการ 10280
+					</p>
+				</div>
+				<div class="col-md-10 mx-auto col-lg-5">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1040.3411277263017!2d100.68203165130998!3d13.57185333519715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d593ef14ae48d%3A0x95b61997079ac791!2z4Lir4Lih4Li54LmI4Lia4LmJ4Liy4LiZ4LiY4Lix4LiN4LiU4LiyIOC4nuC4suC4o-C5jOC4hOC4p-C4tOC4pw!5e0!3m2!1sen!2sth!4v1717059326911!5m2!1sen!2sth"
+						width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
+	<section class="callout">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-12 col-md-8 text">
+					<h3>Start your project with this awesome template</h3>
+				</div>
+				<div class="col-12 col-md-4 cta">
+					<a href="#" class="btn btn-outline-primary">
+						Download Now
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
+	<footer>
+		<div class="container">
+			<figure>
+				<img src="img/logo-light.png" alt="Logo">
+			</figure>
+			<p>
+				Copyright &copy; 2017 Your Company
+			</p>
+			<p>
+				Made with <i class="ion-heart"></i> By Kodinger
+			</p>
+		</div>
+	</footer>
 
-      .b-example-divider {
-        height: 3rem;
-        background-color: rgba(0, 0, 0, .1);
-        border: solid rgba(0, 0, 0, .15);
-        border-width: 1px 0;
-        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-      }
+	<script src="js/jquery.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/jquery.easeScroll.js"></script>
+	<script src="sweetalert/dist/sweetalert.min.js"></script>
+	<script src="js/stisla.js"></script>
+</body>
 
-      .b-example-vr {
-        flex-shrink: 0;
-        width: 1.5rem;
-        height: 100vh;
-      }
-
-      .bi {
-        vertical-align: -.125em;
-        fill: currentColor;
-      }
-
-      .nav-scroller {
-        position: relative;
-        z-index: 2;
-        height: 2.75rem;
-        overflow-y: hidden;
-      }
-
-      .nav-scroller .nav {
-        display: flex;
-        flex-wrap: nowrap;
-        padding-bottom: 1rem;
-        margin-top: -1px;
-        overflow-x: auto;
-        text-align: center;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
-      }
-    </style>
-
-    
-    <!-- Custom styles for this template -->
-    <link href="cover.css" rel="stylesheet">
-  </head>
-  <body class="d-flex h-100 text-center text-bg-dark">
-    
-<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-  <header class="mb-auto">
-    <div>
-      <h3 class="float-md-start mb-0">Cover</h3>
-      <nav class="nav nav-masthead justify-content-center float-md-end">
-        <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Home</a>
-        <a class="nav-link fw-bold py-1 px-0" href="#">Features</a>
-        <a class="nav-link fw-bold py-1 px-0" href="#">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="px-3">
-    <h1>Cover your page.</h1>
-    <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-    <p class="lead">
-      <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
-    </p>
-  </main>
-
-  <footer class="mt-auto text-white-50">
-    <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
-  </footer>
-</div>
-
-
-    
-  </body>
 </html>
