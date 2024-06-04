@@ -564,6 +564,30 @@ section {
   background-color: #0084ff;
 }
 
+.resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #45505b;
+}
+
+.skills .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  position: relative;
+}
+
+.skills .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #0084ff;
+  margin-bottom: 10px;
+}
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
